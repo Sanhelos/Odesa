@@ -249,6 +249,9 @@ body {
   display: -ms-flexbox;
   display: flex;
   gap: 46px;
+    @media (max-width: 600px) {
+                gap: 26px;
+    }
 }
 
 .hero {
