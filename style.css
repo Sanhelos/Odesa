@@ -36,7 +36,7 @@ aside {
 
 html,
 body {
-    overflow-x: hidden;
+    
   height: 100%;
   width: 100%;
   font-size: 100%;
@@ -128,35 +128,6 @@ body {
           transform: translate(0, 0);
 }
 
-[data-anims-left] {
-  -webkit-transform: translate(-50%, 0);
-          transform: translate(-50%, 0);
-  -webkit-transition: 0.8s;
-  transition: 0.8s;
-  opacity: 0;
-}
-[data-anims-left]._active-anim {
-  opacity: 1;
-  -webkit-transition: 0.8s;
-  transition: 0.8s;
-  -webkit-transform: translate(0, 0);
-          transform: translate(0, 0);
-}
-
-[data-anims-right] {
-  -webkit-transform: translate(50%, 0);
-          transform: translate(50%, 0);
-  -webkit-transition: 0.8s;
-  transition: 0.8s;
-  opacity: 0;
-}
-[data-anims-right]._active-anim {
-  opacity: 1;
-  -webkit-transition: 0.8s;
-  transition: 0.8s;
-  -webkit-transform: translate(0, 0);
-          transform: translate(0, 0);
-}
 
 [data-anims-opacity] {
   -webkit-transform: translate(0, 0);
