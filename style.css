@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@500&family=Kaisei+Opti:wght@500&display=swap");
 @font-face {
     font-family: "Vivaldi";
-    src: url("fonts/vivaldi-italic_1-webfont.woff") format(woff);
-    src: url("fonts/vivaldi-italic_1-webfont.woff2") format(woff2);
+    src: url("./fonts/vivaldi-italic_1-webfont.woff") format(woff);
+    src: url("./fonts/vivaldi-italic_1-webfont.woff2") format(woff2);
   }
 * {
   padding: 0;
